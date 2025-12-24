@@ -1,0 +1,145 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+rfid_wms.db
+rfid_wms.db-journal
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Electron
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# ============================================
+# ИСХОДНЫЙ КОД - НЕ ЗАГРУЖАЕМ В GIT
+# ============================================
+
+# Python исходный код
+src/
+requirements.txt
+setup.py
+rfid-wms-backend.spec
+
+# Desktop исходный код
+desktop/src/
+desktop/main.js
+desktop/preload.js
+desktop/package.json
+desktop/package-lock.json
+desktop/test-start.js
+
+# Тесты и примеры
+tests/
+examples/
+
+# Скрипты сборки и разработки
+build-portable-full.bat
+start.bat
+package-lock.json
+
+# Временные файлы сборки
+build/
+dist/
+
+# ============================================
+# РАЗРЕШАЕМ ГОТОВУЮ СБОРКУ
+# ============================================
+!rfid-wms-portable-full/
+
